@@ -1,0 +1,49 @@
+{
+  "flows": [
+    {
+      "channel": "Meta",
+      "headline": "Healthy food isn’t enough. Tracking is.",
+      "paywall_opens_on": "Welcome Offer - $38.99 / year, after their healthy bowl is scanned at 410 kcal",
+      "note": "asks “Which meal is hardest to guess?” and names the paywall after it: “Every lunch, counted from one photo.”"
+    },
+    {
+      "channel": "Meta",
+      "headline": "You don’t have to restrict. All you need is balance.",
+      "paywall_opens_on": "Welcome Offer - $38.99 / year, after a plate of spaghetti is logged at 520 kcal",
+      "note": "asks “I want to stop feeling guilty after my meals”; the paywall leads with reviews in their blue"
+    },
+    {
+      "channel": "Meta",
+      "headline": "Transform your body. Stop guessing your calories.",
+      "paywall_opens_on": "Welcome Offer - $38.99 / year, after the day’s Eat Goal and one meal taken off it",
+      "note": "asks the goal weight; the paywall reads “50 kg - Here we go!” with the weight they set"
+    }
+  ],
+  "prices": {
+    "yearly": "$38.99",
+    "three_months": "$25.49",
+    "trial": "none",
+    "source": "their recorded US onboarding paywall (ScreensDesign); $38.99 also in the US App Store In-App Purchases"
+  },
+  "today": {
+    "text": "every install answers about 14 questions, meets notifications, App Tracking and Apple Health prompts, then “50 kg - Here we go!” with three plans and a 14:59 timer, before a single photo",
+    "source": "audit_frames"
+  },
+  "asks": [
+    "Which meal is hardest to guess?",
+    "I want to stop feeling guilty after my meals",
+    "Could you share your goal weight with us?"
+  ],
+  "paywall": {
+    "headline": "Every lunch, counted from one photo.",
+    "uses_answers": true
+  },
+  "rebuild": "each Meta video opens its own first launch: one question, a first meal scanned before the price, a paywall that says what they told you, and the 3-month plan once on close",
+  "ideas": [
+    {"n": 1, "title": "Snap a meal before the price", "screen": "First win", "outcome": "CR +10–20%"},
+    {"n": 2, "title": "Say what they told you on the paywall", "screen": "Paywall", "outcome": "CR +10–15%"},
+    {"n": 3, "title": "Ask for reminders and Health after the plan", "screen": "In the app", "outcome": "CR +10–15%"},
+    {"n": 4, "title": "Put a result next to the button", "screen": "Paywall", "outcome": "CR +5–10%"},
+    {"n": 5, "title": "One clear year, a smaller plan on close", "screen": "On close", "outcome": "CR +5–15% · ARPU +10–15%"}
+  ]
+}
